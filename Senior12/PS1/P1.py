@@ -9,7 +9,7 @@ pathDict = {}
 def main():
 	maxPath = 0
 	pathGenerator()
-	maxNumber = int(input("What is the max number: "))
+	maxNumber = int(input())
 	#print("Max number is %d" % (maxNumber))
 	layer2list = listCreator(maxNumber,2)
 	#print (layer2list)
