@@ -1,4 +1,3 @@
-
 def main():
 	
 	#First accept the 2 string that they give me
@@ -57,3 +56,4 @@ def frequencyAnalysis(variable):
 	return characterDictionary
 
 print(main())
+

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 """
 Take in input for the amount of nodes in the tree
@@ -97,7 +98,6 @@ def specialNodeDistance():
 		for i in range(nodeMatrix):
 
 			for j in range(nodeMatrix):
-
 
 
 
