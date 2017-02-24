@@ -23,7 +23,8 @@ for colunmValueIndex in range(lengthOfBoardList-1):
         sumofBoardPair = (listOfBoardNumbers[colunmValueIndex] + listOfBoardNumbers[rowValueIndex])
         boardMatrix[colunmValueIndex][rowValueIndex] = sumofBoardPair
 
-print(boardMatrix)    
+"""for colIndex in range(lengthOfBoardList):
+    print(values)"""    
 
 #create a function that goes through left and bottom side tracing diagnols up to the RIGHT
 
@@ -64,7 +65,7 @@ for rowIndexValue in range(1,lengthOfBoardList):
     elif maxFreqFromIter == allBoardMaxPairSumFrequency:
         allBoardcounter += maxCounterFromIter
         
-for colunmIndexValue in range(0,lengthOfBoardList-2):
+for colunmIndexValue in range(1,lengthOfBoardList-2):
     
     (maxFreqFromIter,maxCounterFromIter) = diagnolTraverser(colunmIndexValue,(lengthOfBoardList-1))
     if maxFreqFromIter > allBoardMaxPairSumFrequency:
