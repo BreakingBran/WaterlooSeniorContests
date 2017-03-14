@@ -100,4 +100,7 @@ ENV/
 # Rope project settings
 .ropeproject
 
+#Just for now 
+Senior16/Senior16TestData/
+
 
